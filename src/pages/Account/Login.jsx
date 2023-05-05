@@ -77,7 +77,7 @@ const Login = () => {
                     <p className="text-3xl text-blue-600 text-center">Please Login!</p>
                     <div className="mt-4">
                         <label className="block font-bold mb-2">Email Address</label>
-                        {/* <input className="bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none"  /> */}
+                      
 
 
                         <input type="email" name="email" placeholder="Type Your Email Here" className="input input-bordered input-primary w-full " required />
@@ -87,16 +87,16 @@ const Login = () => {
                             <label className="block  font-bold mb-2">Password</label>
                             
                         </div>
-                        {/* <input className="bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none" /> */}
+                     
                         <input type="password" name="password"  placeholder="Type Your Passowrd Here" className="input input-bordered input-primary w-full" required/>
                     </div>
                     <div className="mt-8 flex justify-center">
                         <button className="btn btn-active btn-primary w-64" type='submit'>Login</button>
                     </div>
                     <div className="mt-4 flex items-center justify-between">
-                        {/* <span className="border-b w-1/5 md:w-1/4"></span> */}
+                        
                         <p className="text-sm text-center text-gray-500">Don't have an account? <Link to={"/account/register"} className='underline'>Register</Link></p>
-                        {/* <span className="border-b w-1/5 md:w-1/4"></span> */}
+                      
                         <Link className='underline'>forgot password?</Link>
                     </div>
 
@@ -116,7 +116,7 @@ const Login = () => {
                     <div className='flex flex-col lg:flex-row gap-3'>
                         <button onClick={handleGoogleSignIn} className="flex gap-2 items-center w-full justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100">
                             <FaGoogle className='text-black' />
-                            <span className="py-3 text-cente font-bold text-primary">Login With Google</span>
+                            <span className="py-3 text-center font-bold text-primary">Login With Google</span>
                         </button>
                         <button onClick={handleGithubSignIn} className="flex gap-2 items-center w-full justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100">
                             <FaGithub className='text-black' />
