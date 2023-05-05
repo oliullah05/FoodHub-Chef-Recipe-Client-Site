@@ -125,7 +125,7 @@ const Navbar = () => {
                                                 to='/'
                                                 className={({ isActive }) => (isActive ? 'active' : 'default')}
                                             >
-                                                Home
+                                                Home 
                                             </Link>
                                         </li>
 
