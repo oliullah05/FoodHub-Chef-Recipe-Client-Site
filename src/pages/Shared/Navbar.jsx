@@ -20,7 +20,7 @@ const Navbar = () => {
                 >
 
                     <div className='font-bold  text-white '>
-                       <img className='h-14' src={logo} alt="" />
+                        <img className='h-14' src={logo} alt="" />
                     </div>
                 </Link>
                 <ul className='items-center hidden space-x-8 lg:flex'>
@@ -125,7 +125,7 @@ const Navbar = () => {
                                                 to='/'
                                                 className={({ isActive }) => (isActive ? 'active' : 'default')}
                                             >
-                                                Home 
+                                                Home
                                             </Link>
                                         </li>
 
@@ -171,13 +171,13 @@ const Navbar = () => {
                         <button onClick={handleLogOut} type='button' className='btn-outlined hidden lg:flex'>
                             Logout
                         </button> :
-                       <> <Link to={"/account/login"}><button type='button' className='btn-outlined hidden lg:flex'>
-                       Login
-                   </button></Link>
-                   <Link to={"/account/register"}><button type='button' className='btn-outlined hidden lg:flex'>
-                            Register
+                        <> <Link to={"/account/login"}><button type='button' className='btn-outlined hidden lg:flex'>
+                            Login
                         </button></Link>
-                   </>
+                            <Link to={"/account/register"}><button type='button' className='btn-outlined hidden lg:flex'>
+                                Register
+                            </button></Link>
+                        </>
                     }
                     {
                         user?.photoURL &&
@@ -186,9 +186,9 @@ const Navbar = () => {
                             alt="User Profile"
                             className="w-10 h-10 rounded-full hidden lg:flex"
                             data-tooltip-id="my-tooltip" data-tooltip-content={user?.displayName} data-tooltip-place="right"
-                        />                 
+                        />
                     }
-                    <Tooltip id="my-tooltip"/>
+                    <Tooltip id="my-tooltip" />
                 </div>
             </div>
         </div>
