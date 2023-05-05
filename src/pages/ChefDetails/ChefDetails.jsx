@@ -15,8 +15,9 @@ const ChefDetails = () => {
                     <div>
                         <p className='text-xl mb-3'> <span className='font-semibold'>
                         <span className='text-blue-600'>Short Bio: </span></span>{short_bio}</p>
-                    <p className='font-semibold text-xl'><span className='text-blue-600'>Experience: </span>{years_of_experience} years+</p>
+                   
                     <p className='font-semibold text-xl'><span className='text-blue-600'>Likes: </span>{likes}</p>
+                    <p className='font-semibold text-xl'><span className='text-blue-600'>Experience: </span>{years_of_experience} years+</p>
                     <p className='font-semibold text-xl'><span className='text-blue-600'>Number of Recipes: </span>{num_recipes}</p></div>
                 </div>
             </div>

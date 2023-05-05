@@ -15,7 +15,7 @@ const AboutSection = () => {
 
         <section className='grid grid-col-1 lg:grid-cols-3 gap-3'>
         <div className="card  bg-base-100 shadow-xl my-5">
-  <figure><img src={review_1} alt="Shoes" /></figure>
+  <figure><img loading='lazy' src={review_1} alt="Shoes" /></figure>
   <div className="card-body">
     
     <p>FoodHub is an excellent foodhub with a great selection of cuisines to choose from. The ordering process is simple, delivery is prompt, and the food is always delicious and fresh. Highly recommend!</p>
