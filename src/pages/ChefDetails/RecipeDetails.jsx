@@ -16,24 +16,24 @@ const RecipeDetails = ({ recipe }) => {
         <div className="card card-compact bg-base-100 shadow-xl">
             <figure><img src={recipe_picture} alt="Shoes" /></figure>
             <div className="card-body">
-                <h2 className="card-title">{recipe_name} <button onClick={handleFavBtn} disabled={fav ? true : false} ><FaRegHeart className={`${fav && 'text-red-700'}`} /></button></h2>
-                <Rating
+               <div className='flex justify-between'> 
+               <h2 className="card-title">{recipe_name} <button onClick={handleFavBtn} disabled={fav ? true : false} ><FaRegHeart className={`${fav && 'text-red-700'}`} /></button> </h2>
+               <Rating
                     style={{ maxWidth: 100 }}
                     value={rating}
                     readOnly
                 />
+               </div>
+               
                 <p className="card-title">Ingredients</p>
                 <ul>
+               
                     {
                         ingredients.map((ingts, index) => <li key={index}>{index + 1}. {ingts}</li>)
                     }
                 </ul>
 
-                <div className='flex items-center justify-between'>
-                    <span className="border-b w-1/5 md:w-1/4"></span>
-                    <p className="text-sm text-center text-gray-500">Yammy Yammy Yammy</p>
-                    <span className="border-b w-1/5 md:w-1/4"></span>
-                </div>
+               
 
                 <ul>
                     <p className="card-title">Cooking Method</p>

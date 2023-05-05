@@ -26,7 +26,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className='space-y-4 pl-5 mx-auto '>
+                    <div className='space-y-4 pl-5  lg:mx-auto '>
                         <h4 className=' text-3xl'>Recipes</h4>
                         <div className='text-rgb(131,199,242) space-y-3'>
                             <p>Breakfast</p>
@@ -36,7 +36,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='space-y-4 pl-5 mx-auto'>
+                    <div className='space-y-4 pl-5 lg:mx-auto'>
                         <h4 className=' text-3xl'>Legal</h4>
                         <div className='text-rgb(131,199,242) space-y-3'>
                             <p>Privacy Policy</p>

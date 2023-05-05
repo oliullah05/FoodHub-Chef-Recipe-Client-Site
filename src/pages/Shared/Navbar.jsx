@@ -100,7 +100,7 @@ const Navbar = () => {
                                         >
 
                                             <div className='text-lg font-bold tracking-wide text-gray-800'>
-                                                The Chef's Corner
+                                                FoodHub
                                             </div>
                                         </Link>
                                     </div>
