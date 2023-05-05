@@ -1,25 +1,21 @@
 import React from 'react';
-import partner1 from '../../assets/p1.jpg'
-import partner2 from '../../assets/p2.jpg'
-import partner3 from '../../assets/p3.jpg'
-import partner4 from '../../assets/p4.jpg'
-import partner5 from '../../assets/p5.jpg'
-import partner6 from '../../assets/p6.jpg'
+import join from "../../assets/img_1.png"
 
 
 const OurPartners = () => {
     return (
-        <div className='my-container space-y-6'>
-            <h2 className='font-bold text-4xl text-center'>Our Patner’s</h2>
-            <div className="flex flex-col lg:flex-row justify-around space-y-3">
-                <img src={partner1} alt="" />
-                <img src={partner2} alt="" />
-                <img src={partner3} alt="" />
-                <img src={partner4} alt="" />
-                <img src={partner5} alt="" />
-                <img src={partner6} alt="" />
-            </div>
-        </div>
+       <section  className='md:flex flex-row-reverse md:flex-row gap-5 justify-center items-center bg-slate-200 shadow-lg rounded-lg container mx-auto'>
+
+<div>
+<p className='text-blue-900'>Join Our Community Forum </p>
+<h1 className='text-5xl py-5 font-bold'>Let's start sharing <br /> your awesome <br /> recipes</h1>
+<button className="btn btn-warning mt-5 w-44">Join Now</button>
+</div>
+
+<div>
+<img src={join} alt="" />
+</div>
+       </section>
     );
 };
 
