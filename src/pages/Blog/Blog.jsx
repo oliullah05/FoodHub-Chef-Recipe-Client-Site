@@ -18,7 +18,7 @@ const Blog = () => {
             <div ref={ref} className=''>
                 <div className='my-6'>
                     <h1 className='font-bold text-3xl py-5'>What is the differences between uncontrolled and controlled components?</h1>
-                    <p className=''>In a controlled component, we can  add event handlers to the form element to do capture changes in the input values .And Also updated the component's state with the new values. That means controlled component have full control over what happens to the data in the form, and you can validate and manipulate it before it's submitted. On the other hand ,uncontrolled component allows the user to enter data into a form without tracking that data in the component's state. Also uncontrolled components are simpler to set up and can be useful for simple forms where we don't need to do much validation or tracking of the data.
+                    <p className=''>In a controlled component, we can  add event handlers to the form element to do capture changes in the input values .And Also updated the component's state with the new values. That means controlled component have full control over what happens to the data in the form, and you can validate and manipulate it before it's submitted. On the other hand ,uncontrolled component allows the user to enter data into a form without tracking that data in the component's state. Also uncontrolled components are simpler to set up and can be useful for simple forms where we don't  need to do much validation or tracking of the data.
                     </p>
                 </div>
                 <div className='my-6'>
