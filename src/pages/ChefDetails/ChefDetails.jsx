@@ -8,14 +8,16 @@ const ChefDetails = () => {
     const {chef_name, chef_picture, years_of_experience, num_recipes, likes, short_bio, recipes } = singleChefData;
     return (
         <div className='my-container flex flex-col space-y-10'>
-            <div className="card lg:card bg-base-100 shadow-xl">
+            <div className="card lg:card-side bg-base-100 shadow-xl">
                 <LazyLoad threshold={0.99}><figure><img src={chef_picture} alt="Chef Picture" /></figure></LazyLoad>
-                <div className="card-body">
-                    <h2 className="card-title lg:text-5xl">Name: {chef_name}</h2>
-                    <p className='text-xl'> <span className='font-semibold'>Short Bio: </span>{short_bio}</p>
-                    <p className='font-semibold text-xl'>Experience: {years_of_experience} years+</p>
-                    <p className='font-semibold text-xl'>Likes: {likes}</p>
-                    <p className='font-semibold text-xl'>Number of Recipes: {num_recipes}</p>
+                <div className="card-body justify-center pl-44 space-y-6">
+                    <h2 className="card-title lg:text-5xl"><span className='text-blue-600'>Name:</span> {chef_name}</h2>
+                    <div>
+                        <p className='text-xl mb-3'> <span className='font-semibold'>
+                        <span className='text-blue-600'>Short Bio: </span></span>{short_bio}</p>
+                    <p className='font-semibold text-xl'><span className='text-blue-600'>Experience: </span>{years_of_experience} years+</p>
+                    <p className='font-semibold text-xl'><span className='text-blue-600'>Likes: </span>{likes}</p>
+                    <p className='font-semibold text-xl'><span className='text-blue-600'>Number of Recipes: </span>{num_recipes}</p></div>
                 </div>
             </div>
 

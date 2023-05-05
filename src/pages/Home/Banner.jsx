@@ -12,54 +12,33 @@ const Banner = () => {
     return (
         <AwesomeSlider className='lg:h-[80vh]'>
             <div className='relative'>
-                <img src={banner1} className='bg-cover blur-sm' alt="" />
+                <img src="https://images.pexels.com/photos/3338497/pexels-photo-3338497.jpeg?auto=compress&cs=tinysrgb&w=1600" className='bg-cover blur-sm' alt="" />
                 <div className='absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center flex-col text-center'>
-                    <h1 className='text-4xl w-full lg:leading-tight lg:text-6xl lg:max-w-3xl title-text'>Welcome to Chef's Corner!!!</h1>
+                    <h1 className='text-4xl w-full text-white lg:leading-tight lg:text-6xl lg:max-w-3xl title-text'>No matter how you cook, FoodHUb has many the recipes to surprice you.</h1> 
                     <p className='my-6 text-lg md:text-xl max-w-2/3 md:max-w-xl max-w-2xl text-white'>
-                        Unleash your inner chef with our delectable recipes and cooking tips. Elevate your culinary game with us and savor the flavors of life.
+                    No matter how you cook, FoodHUb has many the recipes to surprice you
                     </p>
-                    {!user && <div className='hidden lg:flex justify-center gap-5'>
-                        <Link to='/account/login'>
-                            <button className="btn-primary btn-wide" type='submit'>Login</button>
-                        </Link>
-                        <Link to='/account/register'>
-                            <button className="btn-primary btn-wide" type='submit'>Register</button>
-                        </Link>
-                    </div>}
+                 
                 </div>
             </div>
             <div className='relative'>
-                <img src={banner2} className='bg-cover blur-sm' alt="" />
+                <img src="https://images.pexels.com/photos/3338537/pexels-photo-3338537.jpeg?auto=compress&cs=tinysrgb&w=1600" className='bg-cover blur-sm' alt="" />
                 <div className='absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center flex-col text-center'>
-                    <h1 className='text-4xl w-full lg:leading-tight lg:text-6xl lg:max-w-3xl title-text'>Welcome to Chef's Corner!!!</h1>
+                  
                     <p className='my-6 text-lg md:text-xl max-w-2/3 md:max-w-xl max-w-2xl text-white'>
-                        Unleash your inner chef with our delectable recipes and cooking tips. Elevate your culinary game with us and savor the flavors of life.
+                    No matter how you cook, FoodHUb has many the recipes to surprice you.
                     </p>
-                    {!user && <div className='hidden lg:flex justify-center gap-5'>
-                        <Link to='/account/login'>
-                            <button className="btn-primary btn-wide" type='submit'>Login</button>
-                        </Link>
-                        <Link to='/account/register'>
-                            <button className="btn-primary btn-wide" type='submit'>Register</button>
-                        </Link>
-                    </div>}
+                   
                 </div>
             </div>
             <div className='relative'>
-                <img src={banner3} className='bg-cover blur-sm' alt="" />
+                <img src="https://images.pexels.com/photos/3754300/pexels-photo-3754300.jpeg?auto=compress&cs=tinysrgb&w=1600" className='bg-cover blur-sm' alt="" />
                 <div className='absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center flex-col text-center'>
-                    <h1 className='text-4xl w-full lg:leading-tight lg:text-6xl lg:max-w-3xl title-text'>Welcome to Chef's Corner!!!</h1>
+                  
                     <p className='my-6 text-lg md:text-xl max-w-2/3 md:max-w-xl max-w-2xl text-white'>
-                        Unleash your inner chef with our delectable recipes and cooking tips. Elevate your culinary game with us and savor the flavors of life.
+                    Discover Delicious Cuisine: Your One-Stop Food Destination!
                     </p>
-                    {!user && <div className='hidden lg:flex justify-center gap-5'>
-                        <Link to='/account/login'>
-                            <button className="btn-primary btn-wide" type='submit'>Login</button>
-                        </Link>
-                        <Link to='/account/register'>
-                            <button className="btn-primary btn-wide" type='submit'>Register</button>
-                        </Link>
-                    </div>}
+                    
                 </div>
             </div>
         </AwesomeSlider>

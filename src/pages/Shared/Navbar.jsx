@@ -13,14 +13,14 @@ const Navbar = () => {
         logOut()
     }
     return (
-        <div className='bg-blue-500 container mx-auto'>
+        <div className='bg-color mx-auto'>
             <div className='relative flex items-center justify-around px-4 py-5 mx-auto  lg:px-8'>
                 <Link
                     to='/'
                 >
 
                     <div className='font-bold  text-white '>
-                        {/* The Chef's Corner */} <img className='h-14' src={logo} alt="" />
+                       <img className='h-14' src={logo} alt="" />
                     </div>
                 </Link>
                 <ul className='items-center hidden space-x-8 lg:flex'>
@@ -171,9 +171,13 @@ const Navbar = () => {
                         <button onClick={handleLogOut} type='button' className='btn-outlined hidden lg:flex'>
                             Logout
                         </button> :
-                        <Link to={"/account/login"}><button type='button' className='btn-outlined hidden lg:flex'>
-                            Login
+                       <> <Link to={"/account/login"}><button type='button' className='btn-outlined hidden lg:flex'>
+                       Login
+                   </button></Link>
+                   <Link to={"/account/register"}><button type='button' className='btn-outlined hidden lg:flex'>
+                            Register
                         </button></Link>
+                   </>
                     }
                     {
                         user?.photoURL &&

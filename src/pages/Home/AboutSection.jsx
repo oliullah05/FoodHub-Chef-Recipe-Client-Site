@@ -18,9 +18,9 @@ const AboutSection = () => {
   <figure><img src={review_1} alt="Shoes" /></figure>
   <div className="card-body">
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates pariatur ut similique ipsum incidunt iste rerum commodi quasi cum distinctio. Natus quod corporis similique sequi!</p>
+    <p>FoodHub is an excellent foodhub with a great selection of cuisines to choose from. The ordering process is simple, delivery is prompt, and the food is always delicious and fresh. Highly recommend!</p>
   <h1 className='text-center font-bold mt-6'>Poppy Fancies</h1>
-  <p className='text-center '>student</p>
+  <p className='text-center '>Teacher</p>
   </div>
 </div>
 
@@ -29,9 +29,9 @@ const AboutSection = () => {
   <figure><img src={review_2} alt="Shoes" /></figure>
   <div className="card-body">
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates pariatur ut similique ipsum incidunt iste rerum commodi quasi cum distinctio. Natus quod corporis similique sequi!</p>
+    <p>FoodHub is an excellent foodhub with a great selection of cuisines to choose from. The ordering process is simple, delivery is prompt, and the food is always delicious and fresh. Highly recommend!</p>
   <h1 className='text-center font-bold mt-6'>Shpoie Clarke</h1>
-  <p className='text-center '>banker</p>
+  <p className='text-center '>Banker</p>
   </div>
 </div>
 
@@ -40,9 +40,9 @@ const AboutSection = () => {
   <figure><img src={review_3} alt="Shoes" /></figure>
   <div className="card-body">
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates pariatur ut similique ipsum incidunt iste rerum commodi quasi cum distinctio. Natus quod corporis similique sequi!</p>
+    <p>FoodHub is an excellent foodhub with a great selection of cuisines to choose from. The ordering process is simple, delivery is prompt, and the food is always delicious and fresh. Highly recommend!</p>
   <h1 className='text-center font-bold mt-6'>Eathan marshall</h1>
-  <p className='text-center '>student</p>
+  <p className='text-center '>Student</p>
   </div>
 </div>
         </section>
